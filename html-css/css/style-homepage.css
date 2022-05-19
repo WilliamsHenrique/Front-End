@@ -1,0 +1,188 @@
+/* Arquivo CSS geral com estilos dos elementos de todas páginas */
+
+* {
+  box-sizing: border-box;
+}
+form {
+  background-color: #eee;
+  padding: 10px;
+}
+form div {
+  background-color: #fff;
+  border: 10px;
+  border-bottom: 2px solid #33f;
+  margin: 0.2px;
+  padding: 1.6rem;
+}
+label {
+  margin-bottom: 10px;
+  font-size: 1.2rem;
+  font-family: sans-serif;
+  font-weight: bold;
+  color: #66f
+}
+input {
+  padding: 10px;
+}
+
+[type="text"], [type="e-mail"], textarea, label{
+  display: block;
+  width: 100%;
+}
+
+body {
+  font-family: 'Courier New', monospace;;
+  background-color: #e9e3ce;
+  line-height: 20px;
+  color: #2eb82e;
+  box-sizing: content-box;
+  }
+ 
+
+body {
+  font-family: 'Courier New', monospace;;
+  padding: 10px;
+  background: #e9e3ce;
+}
+
+
+/* Style the header */
+header {
+  background-color: #e9e3ce;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: #2eb82e;
+}
+
+
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 30%;
+  background: #e9e3ce;
+  padding: 10px;
+  
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+h2{
+  background-color: #e9e3ce;
+  font-style: italic;
+}
+
+
+*
+
+a:link,  a:visited {
+  background-color:#2eb82e ;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+a:link, a:visited, a:active {
+  text-decoration: none;
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  }
+a:hover, a:active {
+  background-color: red;
+}
+article {
+  float: left;
+  padding: 0.1px;
+  width: 70%;
+  background-color: #2eb82e;
+}
+
+
+img {
+    background-color: #2eb82e;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 50%;
+    max-width: 200px;
+    max-height:250px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+   }
+/* Clear floats after the columns */
+section::after {
+  background: #ccc;
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+footer {
+  background-color: #375F1B;
+  padding: 10px;
+  text-align: center;
+  color: #e9e3ce;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+
+@media (min-width: 600px) {
+
+  body {
+    background-color: teal;
+    color: #fff
+  }
+  li, a {
+    color: whitesmoke
+  }
+  h2{
+    color: #000000;
+  }
+  h3{
+    color: #000000;
+  }
+  
+}
+
+@media (max-width: 768px) {
+
+  nav,
+  article,
+  h2, h3{
+    width: 70vw;
+  }
+
+  article {
+    width: 50vw;
+    width: 50vw;
+    min-width: unset;
+  }
+
+}
+
+
+@media (max-width: 425px){
+    nav,
+    article {
+      width: 100%;
+      min-width: 320px;
+    }
+}
+
