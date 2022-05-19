@@ -17,8 +17,8 @@
 
 ## Clonar o projeto
 
- Arquevo A  | Versão 1 | Versão 2
- Arqueivo B | Versão 1 | Versão 2
+ Arquivo A | Versão 1 | Versão 2
+ Arquivo B | Versão 1 | Versão 2
 
  ## Commits
  Informação de alteração
