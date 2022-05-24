@@ -154,6 +154,12 @@ footer small {
     display: block;
 }
 
+.cog-branding--minimalcog-branding {
+    visibility: hidden !important;
+
+}
+
+
 .cognito {
     height: 350px !important;
     overflow: hidden !important;
